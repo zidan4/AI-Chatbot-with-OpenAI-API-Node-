@@ -17,4 +17,4 @@ async function ask(question) {
   console.log("Bot:", res.data.choices[0].message.content.trim());
 }
 
-ask("What's a fun fact about space?"); 
+ask("What's a fun fact about space?");
